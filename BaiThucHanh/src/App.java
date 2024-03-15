@@ -1,8 +1,9 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        student st = new student();
-        st.Nhapthongtin();
-        st.TinhdiemTB();
-        st.Xuatthongtin() ;
+        Employee nv = new Employee() ;
+        nv.Nhapthongtin();
+        nv.TinhLuongTB();
+        nv.Tinhluongphucap();
+        nv.Xuatthongtin();
     }
 }
