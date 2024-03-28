@@ -31,7 +31,7 @@ public class Employee {
     void Xuatthongtin()
     {
         System.out.println(name+"-"+Manv);
-        System.out.println("Luong phu cap: "+Tinhluongphucap());
-        System.out.println("Luong trung binh :" +TinhLuongTB());
+        System.out.println("Luong phu cap: "+Phucap);
+        System.out.println("Luong trung binh :" +Luong);
     }
 }
