@@ -29,5 +29,15 @@ public class Slide70chuong4 {
         else{
             System.out.println("Phan tu " +number+ " da ton tai! ");
         }
+
+        if (treeInteger.contains(number)) {
+            treeInteger.remove(number) ;
+            System.out.println("Xoa thanh cong! ");
+            System.out.println("Cac phan tu trong treeSet sau khi xoa: ");
+            System.out.println(treeInteger);
+        }
+        else{
+            System.out.println("Xoa khong thanh cong! ");
+        }
     }
 }

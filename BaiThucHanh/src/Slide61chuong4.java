@@ -9,7 +9,7 @@ public class Slide61chuong4 {
         linkedHashSet.add("Java"); 
         linkedHashSet.add("PHP") ;
         linkedHashSet.add("C++") ;
-        linkedHashSet.add("Python") ;
+        linkedHashSet.add("Python");
         linkedHashSet.add("C") ;
 
         for(String str : linkedHashSet){
